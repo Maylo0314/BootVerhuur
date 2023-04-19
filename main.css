@@ -1,0 +1,86 @@
+body{
+    background-color: #505962;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.boten{
+    margin: 70px;
+}
+
+.card{
+    margin-top: 0;
+}
+
+.card-text {
+    color: white;
+}
+
+.card-title{
+    color: white;
+}
+
+.container-boten{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonkleur{
+    background-color: #505962;
+    border-color: #505962;
+}
+
+.buttonkleur:hover{
+    background-color: #505962;
+    border-color: lightgrey;
+}
+
+.card{
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.titel{
+    margin: 20px 0 0 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.badge{
+    background-color: #2b3035;
+    width: 200px ;
+    height: 50px;
+    text-align: center;
+    margin: 20px 0 0 70px;
+    padding: 15px;
+    font-size: larger;
+}
+
+
+.dagdelen{
+    margin: 0 20px 0 20px;
+}
+
+.datumcss{
+    margin-left: 35px;
+}
+
+.bc{
+    background-color: #6c757d;
+}
+
+.wit{
+    color: white;
+}
+
+.form-check-input{
+    background-color: #505962;
+    border-color: #505962;
+}
+
+@media screen and (min-width: 1000px) {
+    .container-boten{
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
